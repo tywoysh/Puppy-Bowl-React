@@ -3,3 +3,9 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+
+.search-bar {
+    height: 20px;
+    width: 200px;
+    margin-bottom: 20px;
+}

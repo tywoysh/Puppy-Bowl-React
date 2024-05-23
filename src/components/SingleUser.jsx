@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import PlayerCard from './PlayerCard';
+import IndividualCard from './IndividualCard';
 
 const SingleUser = () => {
     const [player, setPlayer] = useState(null);
@@ -32,7 +33,7 @@ const SingleUser = () => {
         <h1>{error}</h1>
     ) : player ? (
       <>
-        <PlayerCard players={player}/>
+        <IndividualCard players={player}/>
       </>
     ) : (
       <h1>Loading...</h1>

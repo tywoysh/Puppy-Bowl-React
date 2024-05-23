@@ -3,6 +3,7 @@ import {Route, Routes} from 'react-router-dom';
 import Navbar from './components/Navbar';
 import AllPlayers from './components/AllPlayers';
 import SingleUser from './components/SingleUser';
+import AddPlayerForm from './components/AddPlayerForm';
 
 function App() {
 
