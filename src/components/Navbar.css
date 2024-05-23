@@ -1,0 +1,7 @@
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    border: green 4px solid;
+}
+
